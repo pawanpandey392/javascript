@@ -328,19 +328,19 @@ module.exports.GetHttpCodes = () => {
       code: 611,
       msg: 'Read error',
       name: 'READ_ERROR',
-      description: 'Indicates that an error occurred when the crawler retrieved a document.',
+      description: 'Indicates that an error occurred when the crawler retrieved a document.'
     },
     {
       code: 612,
       msg: 'Connect error',
       name: 'CONNECT_ERROR',
-      description: 'Indicates that an error occurred when the crawler attempted to connect to a Web server.',
+      description: 'Indicates that an error occurred when the crawler attempted to connect to a Web server.'
     },
     {
       code: 613,
       msg: 'Read timeout',
       name: 'READ_TIMEOUT',
-      description: 'Indicates that a timeout occurred while the crawler was retrieving a document.',
+      description: 'Indicates that a timeout occurred while the crawler was retrieving a document.'
     },
     {
       code: 614,
@@ -364,121 +364,121 @@ module.exports.GetHttpCodes = () => {
       code: 618,
       msg: 'Redirect with no redirect URL',
       name: 'REDIRECT_WITH_NO_REDIRECT_URL',
-      description: 'Indicates that the redirect URL is not valid when the crawler receives the following HTTP status codes. It is possible that the location of the HTTP response header is not valid.',
+      description: 'Indicates that the redirect URL is not valid when the crawler receives the following HTTP status codes. It is possible that the location of the HTTP response header is not valid.'
     },
     {
       code: 680,
       msg: 'DNS lookup failure',
       name: 'DNS_LOOKUP_FAILURE',
-      description: 'Indicates that the crawler was not able to obtain IP addresses for hosts in the crawl space, perhaps because of network access problems.',
+      description: 'Indicates that the crawler was not able to obtain IP addresses for hosts in the crawl space, perhaps because of network access problems.'
     },
     {
       code: 690,
       msg: 'Malformed URL',
       name: 'MALFORMED_URL',
-      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.',
+      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.'
     },
     {
       code: 691,
       msg: 'Lost connection (URL Fetcher)',
       name: 'LOST_CONNECTION',
-      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.',
+      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.'
     },
     {
       code: 692,
       msg: 'Write timeout (URL Fetcher)',
       name: 'WRITE_TIMEOUT',
-      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.',
+      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.'
     },
     {
       code: 693,
       msg: 'Select fail (URL Fetcher)',
       name: 'SELECT_FAIL',
-      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.',
+      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.'
     },
     {
       code: 694,
       msg: 'Write error (URLFetcher)',
       name: 'WRITE_ERROR',
-      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.',
+      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.'
     },
     {
       code: 695,
       msg: 'Incomplete block header (URLFetcher)',
       name: 'INCOMPLETE_BLOCK_HEADER',
-      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.',
+      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.'
     },
     {
       code: 699,
       msg: 'Unexpected error (URLFetcher)',
       name: 'UNEXPECTED_ERROR',
-      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.',
+      description: 'This code represents outcomes that do not reflect the true outcome of a download from a remote host, but rather a temporary condition inside the crawler, such as one component that shuts down while another is waiting for a result or sending a result.'
     },
     {
       code: 700,
       msg: 'Parse error (no header end)',
       name: 'PARSE_ERROR',
-      description: '',
+      description: ''
     },
     {
       code: 710,
       msg: 'Parse error (header)',
       name: 'PARSE_ERROR',
-      description: 'Indicate that problems prevented the crawler from doing a complete download, or that the crawler encountered invalid HTML data at a site.',
+      description: 'Indicate that problems prevented the crawler from doing a complete download, or that the crawler encountered invalid HTML data at a site.'
     },
     {
       code: 720,
       msg: 'Parse error (no HTTP code)',
       name: 'PARSE_ERROR',
-      description: 'Indicate that problems prevented the crawler from doing a complete download, or that the crawler encountered invalid HTML data at a site.',
+      description: 'Indicate that problems prevented the crawler from doing a complete download, or that the crawler encountered invalid HTML data at a site.'
     },
     {
       code: 730,
       msg: 'Parse error (body)',
       name: 'PARSE_ERROR',
-      description: 'Indicate that problems prevented the crawler from doing a complete download, or that the crawler encountered invalid HTML data at a site.',
+      description: 'Indicate that problems prevented the crawler from doing a complete download, or that the crawler encountered invalid HTML data at a site.'
     },
     {
       code: 740,
       msg: 'Excluded by robots.txt file',
       name: 'EXCLUDED_BY_ROBOTS_TXT_FILE',
-      description: 'Indicates that anchor links that point to the excluded document can be included in the index.',
+      description: 'Indicates that anchor links that point to the excluded document can be included in the index.'
     },
     {
       code: 4044,
       msg: 'Excluded by robots.txt file',
       name: 'EXCLUDED_BY_ROBOTS_TXT_FILE',
-      description: 'Indicates that the anchor links in documents that point to the excluded document are also excluded from the index.',
+      description: 'Indicates that the anchor links in documents that point to the excluded document are also excluded from the index.'
     },
     {
       code: 741,
       msg: 'Robots temporarily unavailable',
       name: 'ROBOTS_TEMPORARILY_UNAVAILABLE',
-      description: 'Indicates that a site has a robots.txt file that allows the crawl, but the download failed',
+      description: 'Indicates that a site has a robots.txt file that allows the crawl, but the download failed.'
     },
     {
       code: 770,
       msg: 'Bad protocol or nonstandard system port',
       name: 'BAD_PROTOCOL_OR_NONSTANDARD_SYSTEM_PORT',
-      description: 'This status codes mostly occur when you make changes to the crawl space after the crawler has been running for awhile. These status codes typically do not indicate problems that you need to address.',
+      description: 'This status codes mostly occur when you make changes to the crawl space after the crawler has been running for awhile. These status codes typically do not indicate problems that you need to address.'
     },
     {
       code: 780,
       msg: 'Excluded by file type exclusions',
       name: 'EXCLUDED_BY_FILE_TYPE_EXCLUSIONS',
-      description: 'This status codes mostly occur when you make changes to the crawl space after the crawler has been running for awhile. These status codes typically do not indicate problems that you need to address.',
+      description: 'This status codes mostly occur when you make changes to the crawl space after the crawler has been running for awhile. These status codes typically do not indicate problems that you need to address.'
     },
     {
       code: 786,
       msg: 'Invalid URL',
       name: 'INVALID_URL',
-      description: 'This status codes mostly occur when you make changes to the crawl space after the crawler has been running for awhile. These status codes typically do not indicate problems that you need to address.',
+      description: 'This status codes mostly occur when you make changes to the crawl space after the crawler has been running for awhile. These status codes typically do not indicate problems that you need to address.'
     },
     {
       code: 3020,
       msg: 'Soft redirect',
       name: 'SOFT_REDIRECT',
-      description: 'Indicates that a document with status code 200 contains a location header that refers the user agent to another URL.',
+      description: 'Indicates that a document with status code 200 contains a location header that refers the user agent to another URL.'
     }
   ];
 }
