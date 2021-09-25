@@ -29,7 +29,7 @@ let InitiateBuildResponse = ({HttpStatusCodes, ResponseStatus}) => {
 			response: {
 				status: status,
 				httpCode: statusCode,
-				header: header,
+				metadata: header,
 				msgInfo: httpStatusCodesObject.getHttpStatusCode(statusCode),
 				payload: payload,
 			}
@@ -40,7 +40,7 @@ let InitiateBuildResponse = ({HttpStatusCodes, ResponseStatus}) => {
 			response: {
 				status: null,
 				httpCode: null,
-				header: null,
+				metadata: null,
 				msgInfo: null,
 				payload: null,
 			}
@@ -75,6 +75,3 @@ let InitiateBuildResponse = ({HttpStatusCodes, ResponseStatus}) => {
 }
 
 module.exports = InitiateBuildResponse;
-
-// console.table([{code: code, data: data}]);
-// console.table([{code: e.code, name: e.name, message: e.message}]);
